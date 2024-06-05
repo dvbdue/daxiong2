@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大雄的个人网页</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce4ec;
+            color: #4a4a4a;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #e91e63;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .skills {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            background: #f8bbd0;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>大雄的个人网页</h1>
+        <img src="profile-pic.jpg" alt="大雄的照片" class="profile-pic">
+        <p>大家好，我是大雄，一只可爱的布偶猫！我喜欢吃西瓜、玩羽毛球、跑酷、和玩羽毛逗猫棒。</p>
+        <h2>大雄的照片</h2>
+        <div class="gallery">
+            <img src="photo1.jpg" alt="大雄照片1">
+            <img src="photo2.jpg" alt="大雄照片2">
+            <img src="photo3.jpg" alt="大雄照片3">
+            <img src="photo4.jpg" alt="大雄照片4">
+            <img src="photo5.jpg" alt="大雄照片5">
+            <img src="photo6.jpg" alt="大雄照片6">
+            <img src="photo7.jpg" alt="大雄照片7">
+        </div>
+        <h2>大雄的爱好</h2>
+        <ul class="skills">
+            <li>吃西瓜</li>
+            <li>玩羽毛球</li>
+            <li>跑酷</li>
+            <li>玩羽毛逗猫棒</li>
+        </ul>
+    </div>
+</body>
+</html>
